@@ -1,0 +1,359 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#services{
+    display: flex;
+}
+
+.fa-circle{
+    border-radius: 50% ;
+    font-size: 800%; 
+    margin-left: 25px;
+    color: #ffc800;  
+  }
+.fa-regular{
+    font-size: 3rem;
+    position: relative;
+    bottom: 39px;
+    right: 25%; 
+    color: #fff;
+}
+
+#sunt{
+    color: #6c757d;
+}
+
+#lock{
+    position: relative;
+    bottom: 39px;
+    right:20%;
+}
+#mainNav .navbar-brand img{
+    height: 2rem;
+    transition: height 0,3s ease-in-out;
+}
+
+#mainNav .navbar-bran{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffc800;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#tell{
+    color: #fff;
+}
+ 
+#class{
+    text-align: center;
+    margin-left: 41%;
+}  
+#decembre{
+    position: relative;
+    bottom: 20px;
+    left: 20% ;
+   
+}
+header.masthead{
+    padding-top: 17rem;
+    padding-bottom: 12.5rem;
+    background-image: url(images36/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+}
+header{
+    display: block;
+    unicode-bidi: isolate;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+#portfolio .portfolio-item .portfolio-captive .portfolio-head{
+    font-size: 1,5rem;
+    font-weight: 700;
+    margin-bottom: 0;
+  
+}
+ .select h2.section-sec{
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+@media (min-width:768px) {
+    .timeline li .timeline-panel #dolor{
+        float: left;
+        position: relative;
+        bottom: 240px;
+      
+    } 
+}
+@media (min-width:768px) {
+    .timeline li .timeline-panel #phase{
+        float: right;
+        text-align: right;
+        margin-left: 30%;
+        position: relative;
+        bottom: 225px;
+      
+    } 
+}
+
+@media (min-width:768px) {
+    .timeline li .timeline-panel #phases{
+        float: right;
+        text-align: right;
+        margin-left: 30%;
+        position: relative;
+        bottom: 240px;
+      
+    } 
+}
+
+@media (min-width:768px) {
+    .timeline li .timeline-panel #december{
+        float: left;
+        position: relative;
+        bottom: 240px;
+      
+    } 
+}
+.container{
+  padding: 10px  40px;
+  position: relative;
+  bottom: 5px;
+  background-color: inherit;
+}  
+.left{
+  left: 0;
+}
+@media (min-width:768px) {
+    .timeline li .timeline-panel{
+        float: left;
+        width: 41%;
+        padding: 0 20px 20px 30px;
+        text-align: left;
+    } 
+}
+.timeline li .timeline-panel{
+    position: relative;
+    float: right;
+    width: 100%;
+    padding: 0 20px 0px 100px;
+}
+@media (min-width:1200px) {
+     .timeline li{
+      min-height: 170px;
+    }  
+}
+
+ @media (min-width:768px) {
+    .timeline::before{
+      left: 50%;
+   }  
+}
+.timeline::before{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 3px;
+        margin-left: -1.5px;
+        content: "";
+        background-color: #e9ecef;
+       
+} 
+.timeline li .timeline-inverted .timeline-panel{
+    float: right;
+    padding: 0 20px 0 100px;
+  
+}
+@media (min-width:768px) {
+    .timeline li .timeline-inverted .timeline-panel{
+     float: right;
+     padding: 0 20px 20px 30px;
+     text-align: left;
+    }
+}    
+@media (min-width:768px) {
+    .timeline li{
+      margin-bottom: 100px;
+    }
+}    
+ .timeline{
+    list-style: none;
+}
+ .timeline li{
+    position: relative;
+}
+ .timeline .timeline-body p{
+    margin-bottom: 0;
+}
+ .text-dark{
+    --bs-text-opacity:1;
+     color: #6c757d;
+}
+
+p{
+    line-height: 1.75;
+    margin: top;
+}
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-inline-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    unicode-bidi: isolate;
+}
+.rouned-circle{
+    border-radius: 50% !important;
+
+} 
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+} 
+img,svg{
+    vertical-align: middle;
+} 
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.timeline li.timeline-image{
+   position: absolute;
+   z-index: 100;
+   left: 0;
+   width: 80px;
+   height: 80px;
+   margin-left: 0;
+   text-align: center;
+   color: white;
+   border: 7px solid #e9ecef;
+   border-radius: 100%;
+   background-color: #ffc800;
+}
+.Be{
+    border-radius: 50%;
+    margin-top: 10%;
+    width: 14rem;
+    height: 14rem;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+    box-shadow: #e9ecef;
+    background-color: #ffc800;
+    color: #fff;
+} 
+.team-member img{
+    width: 14rem;
+    height: 14rem;
+    border: 0.5rem solid rgb(0, 0, 0,0.1);
+
+}
+.rounded-circle{
+    border-radius: 50% !important;
+}
+.img-brand{
+    height: 2.75rem;
+}
+
+.d-block{
+    display: block !important;
+}
+
+.img-fluid{
+    max-width: 100%;
+}
+
+.footer{
+    text-align: center;
+    font-size: 0.9rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.py-4{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem !important;
+}
+@media (min-width:768px) {
+    .col-md-6{
+        flex: 0 0 auto;
+        width: 50%;
+    }  
+}
+#contact {
+    font-size: 6rem;
+    color: #fff;
+}
+#us{
+    color: #6c757d;
+    font-size: 1.5rem;
+}
+section#contact form#contactform .form-group input.form-control{
+    height: auto;
+}
+
+input{
+    height: 40px;
+    width: 100%;   
+}
+#submitButton{
+    color: #fff;
+    width: 30%;
+    height: 70px;
+    font-size: 1.5rem;
+}
+section#contact form#contactform .form-group input{
+    padding: 1.25rem;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+}
+
+section#contact form#contactform .form-group-textarea textarea{
+    height: 100%;
+    min-height: 10rem;
+}
+
+section#contact form#contactform .form-group-textarea{
+    padding: 1.25rem;
+}
+
+.text-center{
+    text-align: center !important;
+}
+
+.footer{
+    padding-top: 17rem;
+    padding-bottom: 12.5rem;
+    background-color: #212529;
+    background-image:  url(images36/map-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* color: #fff; */
+}
